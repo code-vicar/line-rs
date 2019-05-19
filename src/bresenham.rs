@@ -1,7 +1,7 @@
 #[derive(Debug, Copy, Clone)]
 pub struct Point {
-    x: isize,
-    y: isize
+    pub x: isize,
+    pub y: isize
 }
 
 impl Point {
@@ -15,8 +15,8 @@ impl Point {
 
 #[derive(Debug)]
 pub struct Vector {
-  magnitude: isize,
-  direction: isize
+  pub magnitude: isize,
+  pub direction: isize
 }
 
 pub fn calculate_line(p1: Point, p2: Point) -> Vec<Point> {
